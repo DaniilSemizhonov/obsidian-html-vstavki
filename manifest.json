@@ -1,0 +1,9 @@
+{
+  "id": "html-vstavki",
+  "name": "HTML-вставки",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Встраивает HTML-файлы в заметки через ![[файл.html]]: скрипты работают, высота подстраивается, тема как в Obsidian, прогресс сохраняется.",
+  "author": "Daniil Semizhonov",
+  "isDesktopOnly": false
+}

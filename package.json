@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-html-vstavki",
+  "version": "1.0.0",
+  "description": "HTML-вставки — встраивание HTML-файлов в заметки Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --format=cjs --platform=browser --target=es2018 --external:obsidian --outfile=main.js",
+    "check": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.13.1",
+    "typescript": "^7.0.2"
+  }
+}
